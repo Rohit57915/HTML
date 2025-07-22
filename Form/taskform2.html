@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="" autocomplete="">
+        <fieldset style="background-color: aqua;">
+            <legend>Personal Information Section</legend>
+            <div>
+                <label for="name">UserName</label>
+                <input type="text" id="name" name="username" required autofocus autocomplete="off" minlength="5" maxlength="40" size="40">
+            </div>
+            <br>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required autocomplete="on" size="40">
+            </div>
+            <br>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required autocomplete="on" placeholder="arav@gmail.com" size="40">
+            </div>
+        </fieldset>
+        <fieldset style="background-color: aquamarine;">
+            <legend>Demographic Information Section</legend>
+            <div>
+                <label for="age">Age</label>
+                <input type="number" id="age" name="age" min="18" max="100">
+            </div>
+            <br>
+            <div>
+                   <label for="date">DOB</label>
+                   <input type="date" id="date" name="date">
+            </div>
+        </fieldset>
+        <fieldset style="background-color: bisque;">
+            <legend>Gender Selection</legend>
+            <div>
+                <label for="gender">Gender</label>
+                <input type="radio" id="gender" value="gender">Male
+                <input type="radio" id="gender" value="gender">Female
+                <input type="radio" id="gender" value="gender">Others
+                </div>
+        </fieldset>
+        <fieldset style="background-color: cadetblue;">
+            <legend>Others Information</legend>
+            <div>
+                <label for="Interests">Interests</label>
+                <input type="checkbox" name="Interests" id="Interests" value="Sports">Sports
+                <input type="checkbox" name="Interests" id="Interests" value="Music">Music
+                <input type="checkbox" name="Interests" id="Interests" value="Travel">Travel
+                <input type="checkbox" name="Interests" id="Interests" value="Study">Study
+                <input type="checkbox" name="Interests" id="Interests" value="Dancing">Dancing
+                <input type="checkbox" name="Interests" id="Interests" value="Debate">Debate
+            </div>
+            <br>
+            <div>
+                <label for="Profile Picture">Profile Picture</label>
+                <input type="file" id="Profile Picture" name="Profile Picture" value="file">
+            </div>
+            <br>
+            <div>
+                <label for="">Term & Condition</label>
+                <input type="checkbox" required>legally binding agreement
+            </div>
+        </fieldset>
+        <br>
+        <div>
+              <button style="background-color: rgb(26, 188, 50);">Submit</button>
+              <button style="background-color: brown;">Reset</button>
+        </div>
+        
+    </form>
+</body>
+</html>
